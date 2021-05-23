@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
+body,html {
     background: rgba(156, 150, 27, 0.55);
+    font-size: 31px;
+    font-family: 'Pattaya', sans-serif;
 }
 .header{
     padding: 40px 0 ;
@@ -58,3 +60,64 @@ body {
 .list_ol1{
     list-style:upper-roman;
 }
+
+
+
+p {
+    color: red;
+    line-height: 41px;
+}
+
+h1 {
+    color: green;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 0.5rem ;
+}
+
+h2 {
+    color: blueviolet;
+    width: 300px;
+    border: 1px solid black;
+    text-align: left;
+}
+h3 {
+    color: orange;
+}
+div:nth-child(4) {
+    color: green;
+}
+.bla {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+}
+.bla p {
+
+}
+.blabla{
+    width: 100px;
+    height: 100px;
+    background: red;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
